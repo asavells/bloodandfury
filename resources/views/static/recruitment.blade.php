@@ -31,7 +31,7 @@
             <li>Warrior - Shadoon, Talanes, Rhazzik</li>
             <li>Priest - Katoran</li>
             <li>Mage - Jabberjock</li>
-            <li>Warlock - Edmundantes</li>
+            <li>Warlock - Edmundantes, Gankmobile</li>
             <li>Rogue - Kill</li>
             <li>Druid - Oof</li>
             <li>Shaman - Olympios</li>

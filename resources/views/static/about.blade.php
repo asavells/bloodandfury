@@ -26,13 +26,17 @@
     Reach out to any officer in game for questions:
     <ul>
         <li>Shadoon - GM / Warrior Class Lead (Tank)</li>
-        <li>Verin - Officer</li>
+        <li>Verin - Officer / Hunter Class Lead</li>
         <li>Talanes - Officer</li>
         <li>Oof - Druid Class Lead</li>
+        <li>Katoran - Priest Class Lead</li>
         <li>Kill - Rogue Class Lead</li>
         <li>Razzik - Warrior Class  (DPS)</li>
         <li>Shotnasty - Hunter Class Lead</li>
-        <li>Edmundantes - Treasure Goblin</li>
+        <li>Edmundantes - Warlock Class Lead</li>
+        <li>Gankmobile - Warlock Class Lead</li>
+        <li>Jabberjock - Mage Class Lead</li>
+        <li>Olympios - Shaman Class Lead</li>
     </ul>
 
 </div>
