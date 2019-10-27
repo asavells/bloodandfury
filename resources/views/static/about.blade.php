@@ -26,6 +26,7 @@
     Reach out to any officer in game for questions:
     <ul>
         <li>Shadoon - GM / Warrior Class Lead (Tank)</li>
+        <li>Gankmobile - Recruitment Officer / Warlock Class Lead</li>
         <li>Verin - Officer / Hunter Class Lead</li>
         <li>Talanes - Officer</li>
         <li>Oof - Druid Class Lead</li>
@@ -34,7 +35,6 @@
         <li>Razzik - Warrior Class  (DPS)</li>
         <li>Shotnasty - Hunter Class Lead</li>
         <li>Edmundantes - Warlock Class Lead</li>
-        <li>Gankmobile - Warlock Class Lead</li>
         <li>Jabberjock - Mage Class Lead</li>
         <li>Olympios - Shaman Class Lead</li>
     </ul>
