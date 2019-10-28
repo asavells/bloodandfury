@@ -41,6 +41,6 @@ class LoginController extends Controller
     {
         $user = Socialite::driver('discord')->user();
 
-        dd($user);
+        dd($user->guilds);
     }
 }
