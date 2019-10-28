@@ -16,8 +16,6 @@
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
-    <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
@@ -32,12 +30,21 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav mr-auto">
-
-                    </ul>
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about">About</a>
+                        <li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/recruitment">Recruitment</a>
+                        <li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/loot">Loot System</a>
+                        <li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/calendar">Calendar</a>
+                        <li>
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">
@@ -62,18 +69,6 @@
                                 </div>
                             </li>
                         @endguest
-                        <li class="nav-item">
-                            <a class="nav-link" href="/about">About</a>
-                        <li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/recruitment">Recruitment</a>
-                        <li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/loot">Loot System</a>
-                        <li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/calendar">Calendar</a>
-                        <li>
                     </ul>
                 </div>
             </div>
