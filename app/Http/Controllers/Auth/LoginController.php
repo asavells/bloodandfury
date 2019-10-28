@@ -40,7 +40,19 @@ class LoginController extends Controller
     public function handleProviderCallback()
     {
         $user = Socialite::driver('discord')->user();
+        $guilds = getGuildsByToken($user['access_token']);
+        dd($guilds);
+    }
 
-        var_dump($user);
+    protected static function getGuildsByToken($token)
+    {
+        $response = $this->getHttpClient()->get(
+            'https://discordapp.com/api/users/@me/guilds', [
+            'headers' => [
+                'Authorization' => 'Bearer '.$token,
+            ],
+        ]);
+
+        return json_decode($response->getBody()->getContents(), true);
     }
 }
