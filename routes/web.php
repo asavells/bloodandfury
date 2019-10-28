@@ -24,7 +24,7 @@ Route::get('login/discord', 'Auth\LoginController@redirectToProvider');
 Route::get('login/discord/callback', 'Auth\LoginController@handleProviderCallback');
 
 Route::get('/user', 'UserController@index');
-//Auth::routes();
+Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
