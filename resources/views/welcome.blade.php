@@ -11,6 +11,8 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="/css/styles.css">
+        <link rel="stylesheet" href="/css/app.css">
+        <script src="{{ asset('js/app.js') }}" ></script>
     </head>
     <body>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow-sm">
