@@ -51,7 +51,7 @@ class LoginController extends Controller
             $user->name = $discord_user->name;
             $user->email = $discord_user->email;
             $user->discord_id = $discord_id;
-            $user->role = 0;
+            $user->role_id = 0;
             $user->save();
         }
 
