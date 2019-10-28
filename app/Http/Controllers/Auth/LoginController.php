@@ -4,6 +4,9 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Session;
 use App\User;
 
 use Socialite;
@@ -21,6 +24,8 @@ class LoginController extends Controller
     | to conveniently provide its functionality to your applications.
     |
     */
+
+    use AuthenticatesUsers;
 
     /**
      * Create a new controller instance.
@@ -58,6 +63,12 @@ class LoginController extends Controller
 
         Auth::loginUsingId($user->id);
 
+        return redirect('/');
+    }
+
+    public function logout()
+    {
+        Auth::logout();
         return redirect('/');
     }
 }

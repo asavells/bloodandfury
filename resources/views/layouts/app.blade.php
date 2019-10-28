@@ -11,6 +11,7 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/app.css">
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
