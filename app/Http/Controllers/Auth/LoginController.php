@@ -33,7 +33,7 @@ class LoginController extends Controller
     public function redirectToProvider()
     {
         return Socialite::driver('discord')
-            ->setScopes(['identify', 'email', 'guilds'])
+            ->setScopes(['guilds'])
             ->redirect();
     }
 
