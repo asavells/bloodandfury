@@ -55,6 +55,8 @@ class LoginController extends Controller
             $user->save();
         }
 
-        dd($user);
+        Auth::loginUsingId($user->id);
+
+        return redirect('/');
     }
 }
