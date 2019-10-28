@@ -16,6 +16,8 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+    <script src="{{ asset('js/app.js') }}" ></script>
 </head>
 <body>
     <div id="app">
@@ -88,9 +90,7 @@
         @yield('content')
 
     </div>
-
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    
     @yield('scripts')
 </body>
 </html>
