@@ -41,11 +41,12 @@ class LoginController extends Controller
     {
         $user = Socialite::driver('discord')->user();
         #dd($user);
+        return $user['token'];
         $guilds = getGuildsByToken($user['token']);
         dd($guilds);
     }
 
-    protected static function getGuildsByToken($token)
+    public static function getGuildsByToken($token)
     {
         $response = $this->getHttpClient()->get(
             'https://discordapp.com/api/users/@me/guilds', [
