@@ -76,6 +76,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/loot">Loot System</a>
                         <li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/calendar">Calendar</a>
+                        <li>
                     </ul>
                 </div>
             </div>
@@ -85,5 +88,7 @@
         @yield('content')
 
     </div>
+
+    @yield('scripts')
 </body>
 </html>

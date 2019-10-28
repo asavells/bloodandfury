@@ -18,6 +18,7 @@ Route::get('/', function () {
 Route::get('/about', 'StaticController@about');
 Route::get('/loot', 'StaticController@loot');
 Route::get('/recruitment', 'StaticController@recruitment');
+Route::get('/calendar', 'CalendarTaskController@index');
 
 
 Auth::routes();
@@ -25,3 +26,4 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resource('character', 'CharacterController');
+Route::resource('calendartask', 'CalendarTaskController');

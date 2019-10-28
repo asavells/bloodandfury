@@ -38,6 +38,7 @@
                         <a href="/about">About Us</a>
                         <a href="/recruitment">Recruitment</a>
                         <a href="/loot">Loot System</a>
+                        <a href="/calendar">Calendar</a>
                         <!-- <a href="https://blog.laravel.com">Gallery</a> -->
                         <!-- <a href="https://nova.laravel.com">Streams</a> -->
                     </div>
