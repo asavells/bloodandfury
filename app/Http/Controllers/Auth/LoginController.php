@@ -33,28 +33,14 @@ class LoginController extends Controller
     public function redirectToProvider()
     {
         return Socialite::driver('discord')
-            ->setScopes(['identify', 'email', 'guilds'])
+            ->setScopes(['identify', 'email'])
             ->redirect();
     }
 
     public function handleProviderCallback()
     {
         $user = Socialite::driver('discord')->user();
-        #dd($user);
-        return $user->token;
-        $guilds = getGuildsByToken($user->token);
-        dd($guilds);
-    }
-
-    public static function getGuildsByToken($token)
-    {
-        $response = $this->getHttpClient()->get(
-            'https://discordapp.com/api/users/@me/guilds', [
-            'headers' => [
-                'Authorization' => 'Bearer '.$token,
-            ],
-        ]);
-
-        return json_decode($response->getBody()->getContents(), true);
+        #$discordId = $user->
+        dd($user);
     }
 }
