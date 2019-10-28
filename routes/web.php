@@ -20,7 +20,7 @@ Route::get('/loot', 'StaticController@loot');
 Route::get('/recruitment', 'StaticController@recruitment');
 Route::get('/calendar', 'CalendarTaskController@index');
 
-Route::get('login/discord', 'Auth\LoginController@redirectToProvider');
+Route::get('login/discord', 'Auth\LoginController@redirectToProvider')->name('login');
 Route::get('login/discord/callback', 'Auth\LoginController@handleProviderCallback');
 Route::post('logout', 'Auth\LoginController@logout')->name('logout');
 
