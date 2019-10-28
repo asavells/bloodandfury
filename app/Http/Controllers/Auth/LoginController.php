@@ -40,6 +40,7 @@ class LoginController extends Controller
     public function handleProviderCallback()
     {
         $user = Socialite::driver('discord')->user();
+        dd($user);
         $guilds = getGuildsByToken($user['access_token']);
         dd($guilds);
     }
