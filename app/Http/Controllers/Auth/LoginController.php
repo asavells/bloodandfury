@@ -32,7 +32,9 @@ class LoginController extends Controller
 
     public function redirectToProvider()
     {
-        return Socialite::driver('discord')->redirect();
+        return Socialite::driver('discord')
+            ->setScopes(['identify', 'email', 'guilds'])
+            ->redirect();
     }
 
     public function handleProviderCallback()
