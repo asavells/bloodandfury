@@ -10,7 +10,6 @@ use Illuminate\Support\Facades\Session;
 use App\User;
 
 use Socialite;
-use Auth;
 
 class LoginController extends Controller
 {
