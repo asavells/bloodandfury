@@ -22,7 +22,7 @@ Route::get('/calendar', 'CalendarTaskController@index');
 
 Route::get('login/discord', 'Auth\LoginController@redirectToProvider');
 Route::get('login/discord/callback', 'Auth\LoginController@handleProviderCallback');
-Route::post('logout', 'Auth\LoginController@logout');
+Route::post('/logout', 'Auth\LoginController@logout');
 
 Route::get('/user', 'UserController@index');
 #Auth::routes();
