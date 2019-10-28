@@ -46,6 +46,6 @@ class LoginController extends Controller
 
     public function handleProviderCallback()
     {
-        $user = Socialite::driver('discord')->stateless()->user();
+        $user = Socialite::driver('discord')->user();
     }
 }

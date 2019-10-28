@@ -9,6 +9,6 @@ class UserController extends Controller
 {
     public function index()
     {
-        return Socialite::driver('discord')->stateless()->user();
+        return Socialite::driver('discord')->user();
     }
 }
